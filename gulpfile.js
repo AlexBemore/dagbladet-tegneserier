@@ -38,9 +38,9 @@ var uglify = require('gulp-uglify');
 var pump = require('pump');
 gulp.task('compress', function (cb) {
   pump([
-        gulp.src('./dev/assets/js/vendor/*.js'),
+        gulp.src('./dev/assets/js/*.js'),
         uglify(),
-        gulp.dest('./site/assets/js/vendor/')
+        gulp.dest('./site/assets/js/')
     ],
     cb
   );

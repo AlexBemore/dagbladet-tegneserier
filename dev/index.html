@@ -4,42 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dagbladet</title>
+    <title>Dagbladet – Tegneserier</title>
     <link rel="stylesheet" href="assets/css/foundation.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-		<script>
-		! function() {
-	function e(e, t, n) {
-			e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
-	}
-
-	function t(e) {
-			return window.localStorage && localStorage.font_css_cache && localStorage.font_css_cache_file === e
-	}
-
-	function n() {
-			if (window.localStorage && window.XMLHttpRequest)
-					if (t(o)) a(localStorage.font_css_cache);
-					else {
-							var n = new XMLHttpRequest;
-							n.open("GET", o, !0), e(n, "load", function() {
-									4 === n.readyState && (a(n.responseText), localStorage.font_css_cache = n.responseText, localStorage.font_css_cache_file = o)
-							}), n.send()
-					} else {
-					var c = document.createElement("link");
-					c.href = o, c.rel = "stylesheet", c.type = "text/css", document.getElementsByTagName("head")[0].appendChild(c), document.cookie = "font_css_cache"
-			}
-	}
-
-	function a(e) {
-			var t = document.createElement("style");
-			t.innerHTML = e, document.getElementsByTagName("head")[0].appendChild(t)
-	}
-	var useSSL = "https:" == document.location.protocol;
-	var o = (useSSL ? "https:" : "http:") + "//styleguide.dagbladet.no/stylesheets/fonts.css";
-	window.localStorage && localStorage.font_css_cache || document.cookie.indexOf("font_css_cache") > -1 ? n() : e(window, "load", n)
-}();
-		</script>
+    <link rel="stylesheet" href="assets/css/preloader.css">
+		<script src = "assets/js/loading-fonts.js"></script>
   </head>
   <body>
 		<header id="top-navigation" class="top-nav" role="banner">
@@ -84,7 +52,7 @@
 		    <div class="title-group">
 		      <h1 class="text-red">Rocky <small style="text-transform: none;">av <a href = "martin-kellerman.html" class="subheader" itemprop="name" style="text-transform: capitalize;">Martin Kellerman</a></small></h1>
 		      <div class="right">
-		        <h2><small>Jan 9, 2017</small></h2>
+		        <h2><small>Jan 10, 2017</small></h2>
 		      </div>
 		    </div>
 
@@ -107,14 +75,14 @@
 		<div class="row">
 		  <section class="comic-entry" style = "border: 0px;">
 		    <div class="title-group">
-		      <h1 class="text-red">Rocky <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Martin Kellerman</a></small></h1>
+		      <h1 class="text-red">Pondus <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Frode Øverli</a></small></h1>
 		      <div class="right">
-		        <h2><small>Jan 9, 2017</small></h2>
+		        <h2><small>Jan 10, 2017</small></h2>
 		      </div>
 		    </div>
 
 		    <figure>
-		      <img src="http://www.dagbladet.no/audun/crop/?imageurl=http://gfx.dagbladet.no/styleguide/temp/rocky.jpg" alt="Rocky 19. august">
+		      <img src="images/second-item.gif" alt="">
 		      <ul class="button-group left">
 		        <li class="double-width"><a href="#" class="button tiny text-blue">FORRIGE</a></li>
 		        <li class="double-width"><a href="#" class="button tiny text-blue">NESTE</a></li>
@@ -132,14 +100,14 @@
 		<div class="row">
 		  <section class="comic-entry" style = "border: 0px;">
 		    <div class="title-group">
-		      <h1 class="text-red">Rocky <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Martin Kellerman</a></small></h1>
+		      <h1 class="text-red">Lunch <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Børge Lund</a></small></h1>
 		      <div class="right">
-		        <h2><small>Jan 9, 2017</small></h2>
+		        <h2><small>Jan 10, 2017</small></h2>
 		      </div>
 		    </div>
 
 		    <figure>
-		      <img src="http://www.dagbladet.no/audun/crop/?imageurl=http://gfx.dagbladet.no/styleguide/temp/rocky.jpg" alt="Rocky 19. august">
+		      <img src="images/third-item.gif" alt="">
 		      <ul class="button-group left">
 		        <li class="double-width"><a href="#" class="button tiny text-blue">FORRIGE</a></li>
 		        <li class="double-width"><a href="#" class="button tiny text-blue">NESTE</a></li>
@@ -157,14 +125,14 @@
 		<div class="row">
 		  <section class="comic-entry" style = "border: 0px;">
 		    <div class="title-group">
-		      <h1 class="text-red">Rocky <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Martin Kellerman</a></small></h1>
+		      <h1 class="text-red">Nemi <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Lise Myhre</a></small></h1>
 		      <div class="right">
-		        <h2><small>Jan 9, 2017</small></h2>
+		        <h2><small>Jan 10, 2017</small></h2>
 		      </div>
 		    </div>
 
 		    <figure>
-		      <img src="http://www.dagbladet.no/audun/crop/?imageurl=http://gfx.dagbladet.no/styleguide/temp/rocky.jpg" alt="Rocky 19. august">
+		      <img src="images/fourth-item.gif" alt="">
 		      <ul class="button-group left">
 		        <li class="double-width"><a href="#" class="button tiny text-blue">FORRIGE</a></li>
 		        <li class="double-width"><a href="#" class="button tiny text-blue">NESTE</a></li>
@@ -193,14 +161,14 @@
 		<div class="row">
 		  <section class="comic-entry" style = "border: 0px;">
 		    <div class="title-group">
-		      <h1 class="text-red">Rocky <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Martin Kellerman</a></small></h1>
+		      <h1 class="text-red">Zelda / Lille Berlin <small style="text-transform: none;">av <a href = "#" class="subheader" itemprop="name" style="text-transform: capitalize;">Lina Neidestam</a></small></h1>
 		      <div class="right">
-		        <h2><small>Jan 9, 2017</small></h2>
+		        <h2><small>Jan 10, 2017</small></h2>
 		      </div>
 		    </div>
 
 		    <figure>
-		      <img src="http://www.dagbladet.no/audun/crop/?imageurl=http://gfx.dagbladet.no/styleguide/temp/rocky.jpg" alt="Rocky 19. august">
+		      <img src="images/fifth-item.gif" alt="">
 		      <ul class="button-group left">
 		        <li class="double-width"><a href="#" class="button tiny text-blue">FORRIGE</a></li>
 		        <li class="double-width"><a href="#" class="button tiny text-blue">NESTE</a></li>
@@ -215,30 +183,11 @@
 		  </section>
 		</div><div id="preloader">
     <div id="status">&nbsp;</div>
-</div>
-		<script src="assets/js/vendor/preloader.js" async></script>
-		<script>
-						var cb = function() {
-					var h = document.getElementsByTagName('head')[0];
-					var useSSL = "https:" == document.location.protocol;
-
-					var l = document.createElement('link');
-					l.rel = 'stylesheet';
-					l.href = (useSSL ? "https:" : "http:") + '//styleguide.dagbladet.no/stylesheets/app.css';
-
-					h.parentNode.insertBefore(l, h);
-				};
-
-				var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
-				if(raf){
-					raf(cb);
-				} else {
-					window.addEventListener('domContentLoaded', cb);
-				};
-		</script>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="assets/js/vendor/what-input.js" async></script>
-    <script src="assets/js/vendor/foundation.js" async></script>
-    <script src="assets/js/app.js" async></script>
+  </div>
+    <script src="assets/js/preloader.js" async></script>
+    <script src="assets/js/loading-css.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="assets/js/what-input.js" async></script>
+    <script src="assets/js/foundation.js" async></script>
   </body>
 </html>
